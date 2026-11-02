@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# macOS
+.DS_Store
+
+# Real workbooks, data sources, extracts and Desktop logs stay out of the repo.
+# Tests build their XML inline; force-add (git add -f) a sanitized fixture if one is ever needed.
+*.twb
+*.twbx
+*.tds
+*.tdsx
+*.hyper
+*.tde
+log.txt
+log_bk.txt
+
+# Transform outputs
+out/
