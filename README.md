@@ -3,8 +3,6 @@
 Local skill material for **porting and modernizing Tableau workbooks** by
 transforming `.twb` XML and preserving `.twbx` package contents.
 
-**Status: local working copy, not installed.** This folder is the maintained copy;
-updating it does not register or install it into another application's skill path.
 To install it for Claude Code: `ln -s "$PWD" ~/.claude/skills/tableau-porting` from this folder.
 
 ## What problem this covers
